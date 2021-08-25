@@ -1,6 +1,7 @@
 body {
   background: #E0E8FF url(../images/pattern-background-desktop.svg) no-repeat center top;
   margin: 0;
+  padding: 1rem 1rem 1rem 1rem;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -35,12 +36,9 @@ h2 {
 }
 
 .middle-container {
-  display: block;
-  position: relative;
   background-color: white;
   height: 40rem;
   max-width: 28rem; /* limits the containers width*/
-  width: 100%; /*makes the container responds to screen changes*/
   border-radius: 20px;
 
 }
@@ -54,8 +52,7 @@ h2 {
 
 .Plan {
   background-color: #F7F9FF;
-  width: 354px;
-  height: 98;
+  width: 80%;
   margin: auto;
   padding-bottom: 12px;
   display: flex;
@@ -82,7 +79,7 @@ h2 {
   border: 0;
   line-height: 2.5;
   height: 50px;
-  width: 354px;
+  width: 80%;
   font-size: 1rem;
   text-align: center;
   color: #fff;
