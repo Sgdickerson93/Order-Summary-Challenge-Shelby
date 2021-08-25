@@ -1,6 +1,10 @@
 body {
-  background-color: #E0E8FF;
+  background: #E0E8FF url(../images/pattern-background-desktop.svg) no-repeat center top;
   margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 1rem;
   text-align: center;
@@ -10,6 +14,10 @@ h1 {
   color: #1F2E55;
   font-size: 1.8rem;
   margin-top: 50px;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 .attribution {
@@ -29,13 +37,18 @@ h1 {
 .middle-container {
   display: block;
   position: relative;
-  margin: -25rem auto 0 auto;
   background-color: white;
   height: 40rem;
+  max-width: 28rem; /* limits the containers width*/
+  width: 100%; /*makes the container responds to screen changes*/
   border-radius: 20px;
+
 }
 
 .hero-img {
+  display: block; /*makes an img element be easy to use*/
+  max-width: 100%; /*# limits the size to the 100% of the parent, which is the middle-container*/
+  height: 220px; /*convert this to rem, I used this size based on what dev tools indicate*/
   border-radius: 20px 20px 0 0;
 }
 
@@ -44,11 +57,10 @@ h1 {
   width: 354px;
   height: 98;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .Summary {
@@ -77,8 +89,8 @@ h1 {
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
   background-color: #382AE1;
-  box-shadow: 5px 10px 18px  #717FA6;
-
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #717FA6;
 }
 
 .BTN:hover {
@@ -96,6 +108,7 @@ h1 {
 
 .cancel-link {
   text-decoration: none;
+  font-weight: 700;
   color: #717FA6;
 }
 
@@ -121,6 +134,6 @@ h1 {
 .price-div {
   text-align: left;
   margin-right: 65px;
-  margin-top: 10px;
+  margin-top: 17px;
   line-height: 1px;
 }
