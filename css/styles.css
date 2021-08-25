@@ -1,0 +1,126 @@
+body {
+  background-color: #E0E8FF;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #1F2E55;
+  font-size: 1.8rem;
+  margin-top: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: #6D6F78;
+}
+
+.wave-img {
+  width: 100%;
+}
+
+.middle-container {
+  display: block;
+  position: relative;
+  margin: -25rem auto 0 auto;
+  background-color: white;
+  height: 40rem;
+  border-radius: 20px;
+}
+
+.hero-img {
+  border-radius: 20px 20px 0 0;
+}
+
+.Plan {
+  background-color: #F7F9FF;
+  width: 354px;
+  height: 98;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.Summary {
+  color: #717FA6;
+}
+
+.music-icon-img {
+  margin: 10px 0 0 0;
+}
+
+.icon {
+  float: left;
+  margin: 10px 0 0 0;
+}
+
+/*Button*/
+.BTN {
+  margin-top: 20px;
+  border: 0;
+  line-height: 2.5;
+  height: 50px;
+  width: 354px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #382AE1;
+  box-shadow: 5px 10px 18px  #717FA6;
+
+}
+
+.BTN:hover {
+  background-color: #698DFF;
+}
+
+.BTN:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.Cancel {
+  margin-top: 30px;
+}
+
+.cancel-link {
+  text-decoration: none;
+  color: #717FA6;
+}
+
+.cancel-link:hover {
+  color: #1F2E55;
+}
+
+.change-div {
+  display: inline-block;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.change-link {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.change-link:hover {
+  text-decoration: none;
+}
+
+.price-div {
+  text-align: left;
+  margin-right: 65px;
+  margin-top: 10px;
+  line-height: 1px;
+}
