@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="main-head">
 
 <head>
   <meta charset="UTF-8">
@@ -9,19 +9,20 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="https://fonts.google.com/specimen/Red+Hat+Display" href="/css/master.css">
   <title>Frontend Mentor | Order summary card</title>
-
+<!--
 </head>
-
-<body>
-
+<header role="banner">
   <div class="top-container">
     <img class="wave-img" src="images/pattern-background-desktop.svg" alt="wave-img">
+</header>
+-->
+<body>
 
-  </div>
+  <!--app box -->
+  <main>
 
-  <!--app box https://prem225.github.io/order-summary/-->
-  <div class="middle-container" style="width:28rem">
-    <img class="hero-img " src="images/illustration-hero.svg" alt="hero-img">
+  <div class="middle-container" role="main-middle" style="width:28rem">
+    <img class="hero-img" src="images/illustration-hero.svg" alt="">
     <h1><strong>Order Summary</strong></h1>
 
     <div class="Summary">
@@ -32,10 +33,10 @@
     <!--annual plan-->
     <div class="Plan">
       <div class="music-icon-img">
-      <img class="icon" src="images/icon-music.svg" alt="icon-img">
+      <img class="icon" src="images/icon-music.svg" alt="">
           </div>
       <div class="price-div">
-        <h4>Annual Plan</h4>
+        <h2 class="Annual">Annual Plan</h2>
         <p>$59.99/year</p>
       </div>
 
@@ -51,17 +52,20 @@
       </button>
     </div>
     <div class="Cancel">
-      <a class="cancel-link" href="#"> <strong>Cancel Order</strong>
+      <a class="cancel-link" href="#"> Cancel Order
       </a>
     </div>
   </div>
+
+
   <!--bottom-->
-  <footer>
+  <footer role="copyright-end">
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/Sgdickerson93">@Sgdickerson93</a>.
   </div>
   </footer>
+  </main>
 </body>
 
 </html>
